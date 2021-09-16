@@ -31,6 +31,10 @@ hr {
   );
 }
 
+h6 {
+  font-size: 0.7rem;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -160,7 +164,7 @@ img {
 }
 
 .about {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .about:last-child {
@@ -193,6 +197,7 @@ p {
   text-transform: uppercase;
   color: #848c90;
   font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .about .box .text h4 {
