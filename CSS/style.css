@@ -224,17 +224,11 @@ p {
   text-align: justify;
 }
 
-.others ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 .others ul li {
   list-style: none;
-  color: #333;
+  color: #fff;
   font-weight: 500;
   margin: 10px 0;
-  text-align: center;
 }
 
 .others ul li i {
@@ -249,9 +243,6 @@ p {
     margin: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
-  .others ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 600px) {
@@ -260,13 +251,6 @@ p {
   }
   .about .box .year_company {
     margin-bottom: 5px;
-  }
-  .others ul {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .others ul li {
-    grid-template-columns: repeat(1, 1fr);
-    text-align: left;
   }
   .skills .box {
     grid-template-columns: repeat(1, 1fr);
